@@ -37,7 +37,6 @@ rag_prompt = ChatPromptTemplate.from_messages([
     MessagesPlaceholder(variable_name="messages"),
     ("human", """基于已知信息和以下文本回答上面的问题：
 {context}
-
 请用学术语言回答。"""),
 ])
 
